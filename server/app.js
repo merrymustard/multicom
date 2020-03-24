@@ -82,7 +82,4 @@ const auth = require("./routes/auth.routes")
 app.use("/", index)
 app.use("/", auth)
 
-// Uncomment this line for production
-// app.get('/*', (req, res) => res.sendFile(__dirname + '/public/index.html'));
-
 module.exports = app

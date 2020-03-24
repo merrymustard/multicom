@@ -118,7 +118,7 @@ class MyProvider extends Component {
   handleSignup = async e => {
     e.preventDefault()
     const { data } = await MY_SERVICE.signup(this.state.formSignup)
-    Swal.fire(`Welcome ${data.user.name}`, "User created", "success")
+    Swal.fire(`Hola ${data.user.name}"`, "Tu usuario ha sido creado", "success")
   }
 
   handleStockInput = e => {

@@ -16,7 +16,7 @@ import {
 export default class LogIn extends Component {
   componentDidMount() {
     if (this.context.loggedUser) {
-      return this.props.history.push("/profile")
+      return this.props.history.push("/")
     }
   }
 
@@ -27,7 +27,7 @@ export default class LogIn extends Component {
           <SignUpTag
             onSubmit={e => {
               context.handleLogin(e, () => {
-                this.props.history.push("/profile")
+                this.props.history.push("/")
               })
             }}
           >

@@ -77,6 +77,12 @@ export const SizeContainer = styled.div`
     font-size: 1.2rem;
     border-radius: 4px;
     margin-right: 10px;
+    box-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.3);
+  }
+  button:hover {
+    background-color: ${colors.purple01};
+    color: ${colors.darkBlack};
+    transform: scale(1.1);   }
   }
 `
 
